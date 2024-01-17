@@ -1,7 +1,21 @@
-/* styles-elly.css */
+/* styles-elly.css */ 
+@font-face {
+  font-family: 'Ligconseloto';
+  src: url('fonts/Ligconsolata-Regular.ttf') format('truetype'); /* TTF format */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ligconseloto';
+  src: url('fonts/Ligconsolata-Bold.ttf') format('truetype'); /* TTF format for bold */
+  font-weight: bold;
+  font-style: normal;
+}
+
 body
 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Ligconseloto', sans-serif;
     background-image: url(http://staff.hamk.fi/~tsaksa/temp/background-image.jpg);
     background-size: cover;
     margin: 0;
