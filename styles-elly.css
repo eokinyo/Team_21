@@ -46,3 +46,13 @@ body
     padding: 20px 0;
   }
   
+  img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+  }
+  
+  /* Add some spacing between rows */
+  .row {
+    margin-bottom: 20px;
+  }
