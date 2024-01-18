@@ -16,8 +16,8 @@
 body
 {
     font-family: 'Ligconseloto', sans-serif;
-    background-image: url(http://staff.hamk.fi/~tsaksa/temp/background-image.jpg);
-    background-size: cover;
+    background-color: #1D2021;
+    color: #FBF1C7;
     margin: 0;
     padding: 0;
     height: 100%;
