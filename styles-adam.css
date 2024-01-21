@@ -1,0 +1,101 @@
+.red-button {
+    width: 504px;
+    height: 90px;
+    left: 791px;
+    top: 1007px;
+    position: absolute;
+    background: #1D2021;
+    border-radius: 45px;
+    border: 1px solid #FB4934;
+}
+
+/* Implementing 3 of these */
+.main-project-button {
+    width: 1102px;
+    height: 127px;
+    left: 169px;
+    top: 1759px;
+    position: absolute;
+    background: #1D2021;
+    border-radius: 14px;
+    border: 1px solid #FB4934;
+}
+
+.check-it-out-button {
+    width: 124px;
+    height: 49px;
+    left: 529px;
+    top: 1798px;
+    position: absolute;
+    background: #1D2021;
+    border-radius: 44.50px;
+    border: 1px solid #FB4934;
+}
+
+/* Just a black background */
+.project-background {
+    width: 1440px;
+    height: 516px;
+    left: 0px;
+    top: 1726px;
+    position: absolute;
+    background: #1A1A1A;
+}
+
+/* The red line that needs to be put in the middle of main-project-button*/
+.project-division-line {
+    width: 127px;
+    height: 0px;
+    left: 720px;
+    top: 1759px;
+    position: absolute;
+    transform: rotate(90deg);
+    transform-origin: 0 0;
+    border: 1px #FB4934 solid;
+}
+
+.form-background {
+    width: 613px;
+    height: 451px;
+    left: 422px;
+    top: 2457px;
+    position: absolute;
+    background: #1D2021;
+    border-radius: 19px;
+    border: 1px #FB4934 solid;
+}
+
+/* Implementing 2 of these, 1 for forename, second for surname*/
+.form-name-button {
+    width: 280px;
+    height: 41px;
+    left: 445px;
+    top: 2571px;
+    position: absolute;
+    background: #1D2021;
+    border-radius: 9px;
+    border: 1px #FB4934 solid;
+}
+
+.form-email-button {
+    width: 567px;
+    height: 41px;
+    left: 445px;
+    top: 2664px;
+    position: absolute;
+    background: #1D2021;
+    border-radius: 9px;
+    border: 1px #FB4934 solid;
+}
+
+/* In contact me form, there is no "send" button or anything like that. We may create one now or later on...(since now the form is only cosmetic)*/
+.form-message-button {
+    width: 567px;
+    height: 116px;
+    left: 445px;
+    top: 2757px;
+    position: absolute;
+    background: #1D2021;
+    border-radius: 9px;
+    border: 1px #FB4934 solid;
+}
