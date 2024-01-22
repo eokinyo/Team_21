@@ -99,3 +99,108 @@
     border-radius: 9px;
     border: 1px #FB4934 solid;
 }
+
+/* Here are all text fonts with colours and sizes (big ones are headers, normal ones are "basic") */
+
+.base-header-font {
+    color: #FBF1C7;
+    font-family: Ligconsolata;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.green-header-font {
+    color: #B8BB26;
+    font-family: Ligconsolata;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.giant-header-font {
+    color: #FBF1C7;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Ligconsolata;
+    font-size: 140px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* This font is being used in orientation buttons (size 35px) */
+.orientation-base-font {
+    color: #FBF1C7;
+    font-family: Ligconsolata;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* This font is being used under the giant header (if you dont know, check Figma) */
+.orientation-red-font {
+    color: #FB4934;
+    font-family: Ligconsolata;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.orientation-orange-font {
+    color: #FABD2F;
+    font-family: Ligconsolata;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/*This is used for almost everything, the base font...size 20px*/
+.base-font {
+    color: #FBF1C7;
+    font-family: Ligconsolata;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.blue-base-font {
+    color: #83A598;
+    font-family: Ligconsolata;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.green-base-font {
+    color: #B8BB26;
+    font-family: Ligconsolata;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.orange-base-font {
+    color: #FABD2F;
+    font-family: Ligconsolata;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.red-base-font {
+    color: #FB4934;
+    font-family: Ligconsolata;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
