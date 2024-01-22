@@ -81,3 +81,17 @@ footer.row .col-md-12 h2 span {
   font-weight: 400;
   line-height: normal;
 }
+.custom-div {
+  width: 299px;
+  height: 51px;
+  background: #FBF1C7;
+  border-radius: 24px;
+  margin: auto;
+  flex-shrink: 0;
+  margin-top: 25px;
+}
+.custom-div img {
+  margin-right: 12px; 
+  margin-top: 3px;
+}
+
