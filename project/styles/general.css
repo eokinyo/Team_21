@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+}
+body{
+    background-color: #1D2021;
+}
+
+main{
+    padding: 0vw 4vw;
+}

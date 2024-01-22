@@ -1,0 +1,70 @@
+.about-me-section{
+    display: flex;
+    margin-top: 70px;
+}
+.about-me-section > div{
+    width: 50%;
+}
+
+.about-me-section h1{
+    color: #FBF1C7;
+    font-size: 4vw;
+    font-weight: 700;
+    margin-bottom: 50px;
+}.about-me-section .green-title{
+    color: #B8BB26;
+    font-size: 4vw;
+    font-weight: 400;
+}
+.about-me-section > .about-me > p{
+    color: #FBF1C7;
+    font-size: 1.38vw;
+    font-weight: 400;
+    width: 85%;
+}.about-me-section > .about-me > p > .red{
+    color: #FB4934;
+    font-weight: 700;
+}.about-me-section > .about-me > p > .yellow{
+    color: #FABD2F;
+    font-weight: 700;   
+}.about-me-section > .about-me > p > .blue{
+    color: #83A598;
+    font-weight: 700;
+}.about-me-section > .about-me > p > .green{
+    color: #B8BB26;
+    font-weight: 700;
+}
+
+.about-me-section > .education-skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about-me-section > .education-skills > .education > p, .about-me-section > .education-skills > .skills > .skill-list > ul{
+    color: #FBF1C7;
+    font-size: 1.5vw;
+    font-weight: 400;
+}
+
+.about-me-section > .education-skills > .education > p{
+    display: flex;
+    border-radius: 60px;
+    border: 1px solid #FB4934;
+    width: 78%;
+    padding: 33px 43px;
+    margin-top: 40px;
+}
+.about-me-section > .education-skills > .skills > .skill-list{
+    display: flex;
+    border-radius: 150px;
+    border: 1px solid #FB4934;
+    padding: 60px 98px;
+    width: 60%;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.about-me-section > .education-skills h1{
+    padding-left: 50px;
+}
