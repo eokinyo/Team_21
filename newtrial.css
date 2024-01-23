@@ -1,0 +1,67 @@
+/*MOVE TO ELLY'S CSS*/
+#project_1 {
+	top: 1784px;
+	left: 206px;
+	width: 311px;
+	height: 81px;
+	overflow: hidden;
+	font-family: Ligconsolata;
+	font-size: 60px;
+	text-align: left;
+	color:#FABD2F;
+}
+
+#rectangle_7 {
+	top: 1797px;
+	left: 528px;
+	width: 124px;
+	height: 49px;
+	-ms-border-radius: 44.5px;
+	-o-border-radius: 44.5px;
+	-moz-border-radius: 44.5px;
+	-webkit-border-radius: 44.5px;
+	border-radius: 44.5px;
+	border: 1px solid #fb4934;
+	background:rgba(29,32,33,1);
+}
+
+#rectangle_1 {
+	top: 23px;
+	left: 840px;
+	width: 184px;
+	height: 65px;
+	-ms-border-radius: 36px;
+	-o-border-radius: 36px;
+	-moz-border-radius: 36px;
+	-webkit-border-radius: 36px;
+	border-radius: 36px;
+	border: 1px solid #fb4934;
+	background:rgba(29,32,33,1);
+}
+
+#my_recent_work {
+	top: 1607px;
+	left: 510px;
+	width: 461px;
+	height: 81px;
+	overflow: hidden;
+	font-family: Ligconsolata;
+	font-size: 60px;
+	font-weight: bold;
+	text-align: left;
+	color:#FBF1C7;
+}
+
+#rectangle_24 {
+	top: 2756px;
+	left: 444px;
+	width: 567px;
+	height: 116px;
+	-ms-border-radius: 9px;
+	-o-border-radius: 9px;
+	-moz-border-radius: 9px;
+	-webkit-border-radius: 9px;
+	border-radius: 9px;
+	border: 1px solid #fb4934;
+	background:rgba(29,32,33,1);
+}
