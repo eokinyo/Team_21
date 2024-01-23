@@ -103,7 +103,7 @@
 /* Here are all text fonts with colours and sizes (big ones are headers, normal ones are "basic") */
 
 .base-header-font {
-    color: #FBF1C7;
+    color: #FBF1C7 !important;
     font-family: Ligconsolata;
     font-size: 60px;
     font-style: normal;
@@ -112,11 +112,36 @@
 }
 
 .green-header-font {
-    color: #B8BB26;
+    color: #B8BB26 !important;
     font-family: Ligconsolata;
     font-size: 60px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
+    line-height: normal;
+}
+.red-header-font {
+    color: #FB4934 !important;
+    font-family: Ligconsolata;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.blue-header-font {
+    color: #83A598 !important;
+    font-family: Ligconsolata;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.orange-header-font {
+    color: #FABD2F !important;
+    font-family: Ligconsolata;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
     line-height: normal;
 }
 
@@ -161,7 +186,7 @@
 
 /*This is used for almost everything, the base font...size 20px*/
 .base-font {
-    color: #FBF1C7;
+    color: #FBF1C7 !important;
     font-family: Ligconsolata;
     font-size: 20px;
     font-style: normal;
@@ -170,7 +195,7 @@
 }
 
 .blue-base-font {
-    color: #83A598;
+    color: #83A598 !important;
     font-family: Ligconsolata;
     font-size: 20px;
     font-style: normal;
@@ -179,7 +204,7 @@
 }
 
 .green-base-font {
-    color: #B8BB26;
+    color: #B8BB26 !important;
     font-family: Ligconsolata;
     font-size: 20px;
     font-style: normal;
@@ -188,7 +213,7 @@
 }
 
 .orange-base-font {
-    color: #FABD2F;
+    color: #FABD2F !important;
     font-family: Ligconsolata;
     font-size: 20px;
     font-style: normal;
@@ -197,7 +222,7 @@
 }
 
 .red-base-font {
-    color: #FB4934;
+    color: #FB4934 !important;
     font-family: Ligconsolata;
     font-size: 20px;
     font-style: normal;
