@@ -13,6 +13,7 @@
     font-style: normal;
   }  
 body {
+  flex: 1;
     max-width: 3860px;
     margin: 0 auto; 
     padding: 0;
@@ -97,4 +98,45 @@ footer.row .col-md-12 h2 span {
   margin-right: 12px; 
   margin-top: 3px;
 }
-
+.col-md-12 h2{
+  color: #FBF1C7;
+font-size: 60px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.col-md-12 h2 span{
+  color: #B8BB26;
+font-size: 60px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.col-md-12 .contact-back{
+  width: auto;
+  height: 515px;
+  flex-shrink: 0;
+  background: #1A1A1A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 56px;
+}
+.col-md-12 .contact {
+  width: 627px;
+  height: 461px;
+  flex-shrink: 0;
+  border-radius: 19px;
+  border: 1px solid #FB4934;
+  background: #1D2021;
+  margin:  auto;
+}
+.col-md-12 p{
+  margin: 20px;
+flex-shrink: 0;
+color: #FBF1C7;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
