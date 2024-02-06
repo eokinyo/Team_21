@@ -1,17 +1,6 @@
-# The Format Deepak had...
+# PROJECT PORTFOLIO - TEAM 21
 
-***Welcome to the task README!***
-
-- You are required to create ´Readme.md´ in your project directory to document your activities throughout the project's lifecycle. 
-- You will regularly update it to monitor the ongoing development of the project. 
-
-- You will start by outlining the planned features, task assignments to team members and document the evolving progress of your work. 
-
-- Below, you will find an example to help you get started. Feel free to customize it to match your specific requirements and needs.
-
-# Project Name - Team Number
-
-A brief description of your web development project.
+- Our objective was to build a personal portfolio webpage that effectively promotes our work as software developers. We've tailored it specifically for potential employers and others interested in our future projects.
 
 ## Table of Contents
 - [Features](#features)
@@ -25,23 +14,24 @@ A brief description of your web development project.
 
 In this section, list and describe the features or functionality that you are working on. You can use checkboxes to track the progress of each feature.
 
-- [ ] Feature 1 (Full Name): Title of the feature. 
-- [ ] Feature 2 (Full Name): Title of the feature.
-- [ ] Feature 3 (Full Name): Title of the feature.
+- [ ] Feature 1 (Nart): Contact form. 
+- [ ] Feature 2 (Elly): Signup form.
+- [ ] Feature 3 (Adam): Script to collect visitor information.
+- [ ] Feature 4 (Dammak): Project rating.
 
 > Add features as required. 
 
 ### Feature 1
 
-Include more detailed information about Feature 1 here. Provide links to related code files (github) & link to the feature (shell.hamk.fi) .
+Conctact me form to get people reach out and send messages. (shell.hamk.fi) .
 
 ### Feature 2
 
-Include more detailed information about Feature 2 here. Provide links to related code files (github) & link to the feature (shell.hamk.fi) .
+Storing the accounts - name, hashed password, priviledge: user/admin (shell.hamk.fi) .
 
 ### Feature 3
 
-Include more detailed information about Feature 3 here. Provide links to related code files (github) & link to the feature (shell.hamk.fi) .
+Collecting country location, cookies etc, time of visiting the page - time, date, year…(shell.hamk.fi) .
 
 ---
 
@@ -49,9 +39,10 @@ Include more detailed information about Feature 3 here. Provide links to related
 
 List the database tables that are part of your project. 
 
-- Table 1 (Created By): Table Name 
-- Table 2 (Created By): Table Name 
-- Table 3 (Created By): Table Name 
+- Table 1 (Nart): Contact me database table. 
+- Table 2 (Elly): Signup table.
+- Table 3 (Adam):  Storing visitor information.
+- Table 4 (Dammak): Storing rating infromation.
 
 > Include the ER Diagram of the database. 
 
@@ -61,10 +52,8 @@ List the database tables that are part of your project.
 
 List and describe any forms that have been created as part of your project. Include details about the purpose of each form and any validation logic.
 
-- Form 1 (Created By): Form Name: Link to the related code file (github) | Link to the form (shell.hamk.fi). | Validations Applied
-- Form 2: (Created By): Form Name: Link to the related code file (github) | Link to the form (shell.hamk.fi).  | Validations Applied
-- Form 3: (Created By): Form Name: Link to the related code file (github) | Link to the form (shell.hamk.fi).  | Validations Applied
-
+- Form 1 (Nart): Contact form: Link to the related code file (github) | Link to the form (shell.hamk.fi). | Validations Applied
+- Form 2: (Elly): Signup form: Link to the related code file (github) | Link to the form (shell.hamk.fi).  | Validations Applied
 
 ---
 
@@ -72,13 +61,9 @@ List and describe any forms that have been created as part of your project. Incl
 
 List any tables that you have created in the project work
 
-- Table 1 (Created By): Table Name | Link to the related code file (github) | Link to the table (shell.hamk.fi).
-- Table 2 (Created By): Table Name | Link to the related code file (github) | Link to the table (shell.hamk.fi).
-- Table 3 (Created By): Table Name | Link to the related code file (github) | Link to the table (shell.hamk.fi).
+- Table 1 (Nart): Contact table | Link to the related code file (github) | Link to the table (shell.hamk.fi).
+- Table 2 (Elly): Signup table | Link to the related code file (github) | Link to the table (shell.hamk.fi).
+- Table 3 (Adam): Script table | Link to the related code file (github) | Link to the table (shell.hamk.fi).
+- Table 4 (Dammak): Rating table | Link to the related code file (github) | Link to the table (shell.hamk.fi).
 
 ---
-
-
-
-> Feel free to customize this README template to suit your project's specific needs. Providing clear and organized documentation will help your team members understand the project's progress and tasks effectively. This document will have a significant impact on the grading. 
-
