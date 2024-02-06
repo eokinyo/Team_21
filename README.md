@@ -61,7 +61,7 @@ List and describe any forms that have been created as part of your project. Incl
 
 List any tables that you have created in the project work
 
-- Table 1 (Nart): Contact table | Link to the related code file (github) | Link to the table (shell.hamk.fi).
+- Table 1 (Nart Kosova): Contact table | Link to the related code file (github) | Link to the table (shell.hamk.fi).
 - Table 2 (Elly): Signup table | Link to the related code file (github) | Link to the table (shell.hamk.fi).
 - Table 3 (Adam): Script table | Link to the related code file (github) | Link to the table (shell.hamk.fi).
 - Table 4 (Dammak): Rating table | Link to the related code file (github) | Link to the table (shell.hamk.fi).
