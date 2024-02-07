@@ -99,6 +99,7 @@ footer.row .col-md-12 h2 span {
   margin-top: 3px;
 }
 .col-md-12 h2{
+  margin-top: 60px;
   color: #FBF1C7;
 font-size: 60px;
 font-style: normal;
@@ -106,6 +107,7 @@ font-weight: 700;
 line-height: normal;
 }
 .col-md-12 h2 span{
+  margin-top: 60px;
   color: #B8BB26;
 font-size: 60px;
 font-style: normal;
@@ -121,15 +123,17 @@ line-height: normal;
   align-items: center;
   justify-content: center;
   margin-top: 56px;
+
 }
-.col-md-12 .contact {
+.contact {
   width: 627px;
-  height: 461px;
+  height: 481px;
   flex-shrink: 0;
   border-radius: 19px;
   border: 1px solid #FB4934;
-  background: #1D2021;
+  background: #1D2021 !important;
   margin:  auto;
+
 }
 .col-md-12 p{
   margin: 15px;
@@ -156,8 +160,8 @@ line-height: normal;
   flex:1;
   margin-top: 25px;
 }
-.first-name,
-.last-name {
+.firstName,
+.lastName {
   width: 200px; 
   margin: auto;
   margin-top: 5px;
@@ -172,22 +176,23 @@ line-height: normal;
   margin: auto;
   margin-top: 5px;
 }
-.col-md-12 .first-name{
-  width: 280px;
-height: 41px;
-flex-shrink: 0;
-border-radius: 9px;
-border: 1px solid #FB4934;
-background: #1D2021;
-}
-.col-md-12 .last-name{
-  
+.firstName {
   width: 280px;
   height: 41px;
   flex-shrink: 0;
   border-radius: 9px;
   border: 1px solid #FB4934;
-  background: #1D2021;
+  background: #1D2021 !important;
+  color: #FBF1C7 !important;
+}
+.lastName{ 
+  width: 280px;
+  height: 41px;
+  flex-shrink: 0;
+  border-radius: 9px;
+  border: 1px solid #FB4934;
+  background: #1D2021 !important;
+  color: #FBF1C7 !important;
 }
 .col-md-12 p2{
   color: #B8BB26;
@@ -224,19 +229,38 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
-.col-md-12 .email{
+.email{
+  font-family: 'Ligconseloto', sans-serif;
   width: 593px;
   height: 41px;
   flex-shrink: 0;
 border-radius: 9px;
 border: 1px solid #FB4934;
-background: #1D2021;
+background: #1D2021 !important;
+color: #FBF1C7 !important;
 }
-.col-md-12 .message{
+.message{
+  font-family: 'Ligconsolata', monospace; 
   width: 593px;
-height: 171px;
+height: 140px;
 flex-shrink: 0;
 border-radius: 9px;
 border: 1px solid #FB4934;
-background: #1D2021;
+background: #1D2021 !important;
+color: #FBF1C7 !important;
+}
+.btn-primary {
+  margin-top: 13px;
+  background-color: transparent;
+  border-color: #FB4934;
+  color: #FBF1C7;
+  padding: 10px 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #FB4934;
+  border-color: #FB4934;
 }

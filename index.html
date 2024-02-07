@@ -219,41 +219,41 @@
 
     </div>
 </div>
-    <div class="col-md-12 text-center">
-        <h2>Contact <span>Me</span></h2>
-        <div class="contact-back">
-            <div class="contact">
-                <div><p>Fill out the information below to stay up to date with me!</p></div>
-                <div class="row-container">
-                    <div class="name-container">
-                        <p2>First <span>name</span></p2>
-                    </div>
-                    <div class="name-container">
-                        <p3>Last <span>name</span></p3>
-                    </div>
-                </div>
-                <div class="row-container">
-                    <div class="first-name"></div>
-                    <div class="last-name"></div>
-                </div>
-                <div class="row-container">
-                    <div class="email-container">
-                <div><p4>Email</p4></div>
-                </div>
-                </div>
-                <div class="row-container">
-                <div class="email"></div>
-                </div>
-                <div class="row-container">
-                    <div class="message-container">
-                <div><p4>Message</p4></div>
-                </div>
-                </div>
-                <div class="row-container">
-                <div class="message"></div>
+        <div class="col-md-12 text-center">
+            <h2>Contact <span>Me</span></h2>
+            <div class="contact-back">
+                <div class="contact">
+                    <p>Fill out the information below to stay up to date with me!</p>
+                    <form id="contactForm" action="submit.php" method="post">
+                        <div class="form-group row-container">
+                            <div class="name-container">
+                                <label for="firstName">First name</label>
+                                <input type="text" class="form-control firstName" id="firstName" name="firstName" placeholder="Enter your first name">
+                            </div>
+                            <div class="name-container">
+                                <label for="lastName">Last Name</label>
+                                <input type="text" class="form-control lastName" id="lastName" name="lastName" placeholder="Enter your last name">
+                            </div>
+                        </div>
+                        <div class="form-group row-container">
+                            <div class="email-container">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control email" id="email" name="email" placeholder="Enter your email">
+                            </div>
+                        </div>
+                        <div class="form-group row-container">
+                            <div class="message-container">
+                                <label for="message">Message</label>
+                                <textarea class="form-control message" id="message" name="message" rows="3" placeholder="Enter your message"></textarea>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
                 </div>
             </div>
         </div>
+
+
         <div class="footer-center">    
             <footer class="row">
                 <div class="col-md-12 text-center base-font">
