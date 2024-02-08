@@ -1,3 +1,6 @@
+<?php 
+$title = "Personal Portfolio";
+include 'outline/header.php'; ?>
 <?php
 $servername = "web-dev-env-main-db-1";
 $username = "team21";
@@ -14,3 +17,4 @@ if($conn->connect_error){
     die("Connection Failed: " . $conn->connect_error);
 }
 ?>
+<?php include '../outline/footer.php'; ?>
