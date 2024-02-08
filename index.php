@@ -169,15 +169,15 @@ include 'outline/header.php'; ?>
             <div class="contact-back">
                 <div class="contact">
                     <p>Fill out the information below to stay up to date with me!</p>
-                    <form id="contactForm" action="submit.php" method="post">
+                    <form id="contactForm" action="../Team_21/dataBase/submit1.php" method="post">
                         <div class="form-group row-container">
                             <div class="name-container">
-                                <label for="firstName">First name</label>
-                                <input type="text" class="form-control firstName" id="firstName" name="firstName" placeholder="Enter your first name">
+                                <label for="first_name">First name</label>
+                                <input type="text" class="form-control firstName" id="first_name" name="first_name" placeholder="Enter your first name">
                             </div>
                             <div class="name-container">
-                                <label for="lastName">Last Name</label>
-                                <input type="text" class="form-control lastName" id="lastName" name="lastName" placeholder="Enter your last name">
+                                <label for="last_name">Last Name</label>
+                                <input type="text" class="form-control lastName" id="last_name" name="last_name" placeholder="Enter your last name">
                             </div>
                         </div>
                         <div class="form-group row-container">
@@ -192,7 +192,7 @@ include 'outline/header.php'; ?>
                                 <textarea class="form-control message" id="message" name="message" rows="3" placeholder="Enter your message"></textarea>
                             </div>
                         </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="submit" class="btn btn-primary" name="submit">Submit</button>
                     </form>
                 </div>
             </div>
