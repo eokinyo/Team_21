@@ -1,5 +1,5 @@
 <?php 
-$title = "Personal Portfolio";
+$title = "Sign-up form";
 include '../outline/header.php'; ?>
 <br>
 <br>

@@ -1,5 +1,5 @@
 <?php 
-$title = "Personal Portfolio";
+$title = "Your information";
 include '../outline/header.php'; ?>
 <?php
 // What to do with the data.

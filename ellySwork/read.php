@@ -1,8 +1,7 @@
 <?php 
-$title = "Personal Portfolio";
-include '../outline/header.php'; ?>
-<?php
-$title = "Read Your Data";
+$title = "User input data";
+include '../outline/header.php';
+
 include 'ellydb.php';
 // SQL query to retrieve data from the 'signUpForm' table
 $sql = "SELECT * FROM signUpForm";
@@ -44,6 +43,5 @@ if ($result->num_rows > 0) {
 }
 // close the connection when done
 $conn->close();
-?>
 
-<?php include '../outline/footer.php'; ?>
+include '../outline/footer.php'; ?>

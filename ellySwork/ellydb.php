@@ -1,5 +1,5 @@
 <?php 
-$title = "Personal Portfolio";
+$title = "User data";
 include 'outline/header.php'; ?>
 <?php
 $servername = "web-dev-env-main-db-1";
