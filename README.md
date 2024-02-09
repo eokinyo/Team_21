@@ -33,7 +33,7 @@ Storing the accounts - name, hashed password, priviledge: user/admin (shell.hamk
 
 Collecting country location, cookies etc, time of visiting the page - time, date, year…(shell.hamk.fi) .
 
-### Feature 3
+### Feature 4
 
 Collecting customers Comments/Feedbacks & Rating them …(shell.hamk.fi) .
 
