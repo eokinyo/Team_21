@@ -14,8 +14,8 @@
 
 In this section, list and describe the features or functionality that you are working on. You can use checkboxes to track the progress of each feature.
 
-- [ ] Feature 1 (Nart): Contact form. 
-- [ ] Feature 2 (Elly): Signup form.
+- [X] Feature 1 (Nart): Contact form. 
+- [X] Feature 2 (Elly): Signup form.
 - [ ] Feature 3 (Adam): Script to collect visitor information.
 - [ ] Feature 4 (Dammak): Project rating.
 
