@@ -97,6 +97,10 @@ include 'outline/header.php'; ?>
                     <div class="text-center mt-3">
                         <a class="green-base-font" href="#">Check it<br/>out</a>
                     </div>
+
+                    <div class="text-center mt-3">
+                        <a class="green-base-font" href="#">Feedback</a>
+                    </div>
                 </div>
             </div>
     
