@@ -98,8 +98,20 @@ include 'outline/header.php'; ?>
                         <a class="green-base-font" href="#">Check it<br/>out</a>
                     </div>
 
-                    <div class="text-center mt-3">
-                        <a class="green-base-font" href="#">Feedback & Comments</a>
+                    <div class="text-right mt-3">
+                        <a class="red-base-font" href="#">Feedback</a><br>
+                        <body>
+            
+        <label for="rating">Rate us:</label> <div class="rating">
+            <input type="radio" id="star5" name="rating" value="5"><label for="star5"></label>
+            <input type="radio" id="star4" name="rating" value="4"><label for="star4"></label>
+            <input type="radio" id="star3" name="rating" value="3"><label for="star3"></label>
+            <input type="radio" id="star2" name="rating" value="2"><label for="star2"></label>
+            <input type="radio" id="star1" name="rating" value="1"><label for="star1"></label>
+        </div>
+
+                        </body>
+                    
                     </div>
                 </div>
             </div>
@@ -119,6 +131,21 @@ include 'outline/header.php'; ?>
                     </div>
                     <div class="text-center mt-3">
                         <a class="blue-base-font" href="#">Check it<br/>out</a>
+                    </div>
+                    <div class="text-right mt-3">
+                        <a class="red-base-font" href="#">Feedback</a><br>
+                        <body>
+            
+        <label for="rating">Rate us:</label> <div class="rating">
+            <input type="radio" id="star5" name="rating" value="5"><label for="star5"></label>
+            <input type="radio" id="star4" name="rating" value="4"><label for="star4"></label>
+            <input type="radio" id="star3" name="rating" value="3"><label for="star3"></label>
+            <input type="radio" id="star2" name="rating" value="2"><label for="star2"></label>
+            <input type="radio" id="star1" name="rating" value="1"><label for="star1"></label>
+        </div>
+
+                        </body>
+                    
                     </div>
                 </div>
             </div>
@@ -140,7 +167,23 @@ include 'outline/header.php'; ?>
                     </div>
                     <div class="text-center mt-3">
                         <a class="orange-base-font" href="#">Check it<br/>out</a><br>
-                        <a class="orange-base-font" href="trial.php">Feedback</a>
+                    
+                    </div>
+
+                    <div class="text-right mt-3">
+                        <a class="red-base-font" href="#">Feedback</a><br>
+                        <body>
+            
+        <label for="rating">Rate us:</label> <div class="rating">
+            <input type="radio" id="star5" name="rating" value="5"><label for="star5"></label>
+            <input type="radio" id="star4" name="rating" value="4"><label for="star4"></label>
+            <input type="radio" id="star3" name="rating" value="3"><label for="star3"></label>
+            <input type="radio" id="star2" name="rating" value="2"><label for="star2"></label>
+            <input type="radio" id="star1" name="rating" value="1"><label for="star1"></label>
+        </div>
+
+                        </body>
+                    
                     </div>
                 </div>
             </div>
@@ -160,6 +203,21 @@ include 'outline/header.php'; ?>
                     </div>
                     <div class="text-center mt-3">
                         <a class="red-base-font" href="#">Check it<br/>out</a>
+                    </div>
+                    <div class="text-right mt-3">
+                        <a class="red-base-font" href="#">Feedback</a><br>
+                        <body>
+            
+        <label for="rating">Rate us:</label> <div class="rating">
+            <input type="radio" id="star5" name="rating" value="5"><label for="star5"></label>
+            <input type="radio" id="star4" name="rating" value="4"><label for="star4"></label>
+            <input type="radio" id="star3" name="rating" value="3"><label for="star3"></label>
+            <input type="radio" id="star2" name="rating" value="2"><label for="star2"></label>
+            <input type="radio" id="star1" name="rating" value="1"><label for="star1"></label>
+        </div>
+
+                        </body>
+                    
                     </div>
                 </div>
             </div>
