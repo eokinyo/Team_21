@@ -99,7 +99,7 @@ include 'outline/header.php'; ?>
                     </div>
 
                     <div class="text-center mt-3">
-                        <a class="green-base-font" href="#">Feedback</a>
+                        <a class="green-base-font" href="#">Feedback & Comments</a>
                     </div>
                 </div>
             </div>
