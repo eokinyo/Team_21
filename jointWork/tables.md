@@ -22,3 +22,13 @@ CREATE TABLE TABLE_VISIT (
     ip_address VARCHAR(50),
     timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
+## Feedback Table - Created by Dammika
+
+CREATE TABLE `ProjectFeedback_Team21` (
+  `FeedbackID` int NOT NULL,
+  `ProjectID` int NOT NULL,
+  `UserName` varchar(50) NOT NULL,
+  `Status` varchar(20) NOT NULL,
+  `Comments` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
