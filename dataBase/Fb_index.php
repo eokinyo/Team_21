@@ -1,7 +1,8 @@
 <?php 
-$title = "Exaercise01: HAMK oy";
+$title = "Feed Back";
 
-include '../header.php' ?>
+include '<div class="">
+<outline>header.php' ?>
 
 
 <h2>Project Feedback:</h2>
@@ -9,33 +10,36 @@ include '../header.php' ?>
     <div class="form-group">
         <div class="row">
             <div class="col">
-                <label for="fname">User ID:</label>
-                <input type="text" class="form-control" id="User_id" placeholder="Enter your User_id" name="User_id" required>
-            </div>
+                <label for="fname">Project ID:</label>
+                <input type="text" class="form-control" id="User_id" placeholder="Enter your ProjectID" name="ProjectID" required>
+            </div><br>
+
             <div class="col">
                 <label for="lname">User Name:</label>
-                <input type="text" class="form-control" id="lname" placeholder="Enter your last name" name="lname" required>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name" name="name" required>
             </div>
         </div>
-    </div>
+    </div><br>
+
     <div class="form-group">
         <div class="row">
             <div class="col">
-                <label for="city">City:</label>
-                <input type="text" class="form-control" id="city" placeholder="Enter your city" name="city" required>
-            </div>
+                <label for="city">Comments:</label>
+                <input type="text" class="form-control" id="Comments" placeholder="Comments" name="Comments" required>
+            </div><br>
+
             <div class="col">
-                <label for="groupid">Group ID:</label>
+                <label for="groupid">Status:</label>
                 <select class="form-control" id="groupid" name="groupid">
-                    <option value="BBCAP19">BBCAP19</option>
-                    <option value="BBCAP20">BBCAP20</option>
-                    <option value="BBCAP21">BBCAP21</option>
-                    <option value="BBCAP22">BBCAP22</option>
+                    <option value="Pending">Pending</option>
+                    <option value="Ongoing">Ongoing</option>
+                    <option value="Completed">Completed</option>
+                    <option value="Approved">Approved</option>
                     <option value="Others">Others</option>
                 </select>
             </div>
         </div>
-    </div>
+    </div><br><br>
     <button type="submit" class="btn btn-primary" name="submit">Submit</button>
 </form>
 
