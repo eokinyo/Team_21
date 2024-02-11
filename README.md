@@ -35,7 +35,7 @@ Collecting country location, cookies etc, time of visiting the page - time, date
 
 ### Feature 4
 
-Collecting customers Comments/Feedbacks & Rating them …(shell.hamk.fi) .
+Collecting project feedback and Rating information …(shell.hamk.fi) .
 
 
 ---
@@ -47,7 +47,7 @@ List the database tables that are part of your project.
 - Table 1 (Nart): Contact me database table. 
 - Table 2 (Elly): Signup table.
 - Table 3 (Adam):  Storing visitor information.
-- Table 4 (Dammak): Storing rating infromation.
+- Table 4 (Dammak): Storing project rating infromation & feedback.
 
 > Include the ER Diagram of the database. 
 
