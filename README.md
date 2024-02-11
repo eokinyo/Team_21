@@ -47,7 +47,7 @@ List the database tables that are part of your project.
 - Table 1 (Nart): Contact me database table. 
 - Table 2 (Elly): Signup table.
 - Table 3 (Adam):  Storing visitor information.
-- Table 4 (Dammak): Storing project rating infromation & feedback.
+- Table 4 (Dammak): Storing project rating & feedback data.
 
 > Include the ER Diagram of the database. 
 
