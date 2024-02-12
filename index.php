@@ -236,23 +236,27 @@ include 'outline/header.php'; ?>
                         <div class="form-group row-container">
                             <div class="name-container">
                                 <label for="first_name">First name</label>
-                                <input type="text" class="form-control firstName" id="first_name" name="first_name" placeholder="Enter your first name">
+                                <input type="text" class="form-control firstName" id="first_name" name="first_name" placeholder="Enter your first name" required>
+                                <p id="firstNameError"></p>
                             </div>
                             <div class="name-container">
                                 <label for="last_name">Last Name</label>
-                                <input type="text" class="form-control lastName" id="last_name" name="last_name" placeholder="Enter your last name">
+                                <input type="text" class="form-control lastName" id="last_name" name="last_name" placeholder="Enter your last name" required>
+                                <p id="lastNameError"></p>
                             </div>
                         </div>
                         <div class="form-group row-container">
                             <div class="email-container">
                                 <label for="email">Email</label>
-                                <input type="email" class="form-control email" id="email" name="email" placeholder="Enter your email">
+                                <input type="email" class="form-control email" id="email" name="email" placeholder="Enter your email" required>
+                                <p id="emailError"></p>
                             </div>
                         </div>
                         <div class="form-group row-container">
                             <div class="message-container">
                                 <label for="message">Message</label>
-                                <textarea class="form-control message" id="message" name="message" rows="3" placeholder="Enter your message"></textarea>
+                                <textarea class="form-control message" id="message" name="message" rows="3" placeholder="Enter your message" required></textarea>
+                                <p id="messageError"></p>
                             </div>
                         </div>
                         <button type="submit" class="btn btn-primary" name="submit">Submit</button>
@@ -260,6 +264,7 @@ include 'outline/header.php'; ?>
                 </div>
             </div>
         </div>
+        <script src="javaScript_scripts/contactMe.js"></script>
 
 
 <?php include 'outline/footer.php'; ?>
