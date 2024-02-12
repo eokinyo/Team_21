@@ -31,7 +31,11 @@ Storing the accounts - name, hashed password, priviledge: user/admin (shell.hamk
 
 ### Feature 3
 
-Collecting country location, cookies etc, time of visiting the page - time, date, year…(shell.hamk.fi) .
+Collecting IP Adress, Times of visiting the page and number of visits(shell.hamk.fi)
+
+- In the real world, this information should be accessible only by the site admin, in our case, we will include it navbar (to demonstrate that it works)
+- Important to log information about the visitors of our page, since they might be potential employers or people interested in our work
+- In the future, we can also check the site traffic based off nubmer of visits and lenght of the user session
 
 ### Feature 4
 
