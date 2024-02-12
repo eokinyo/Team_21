@@ -1,5 +1,5 @@
 <?php
-include '/var/www/html/Team_21/ellySwork/ellydb.php'; //it wont work yet since i cant connect to the database with my table, it works with root:password...
+include 'db.php'; //it wont work yet since i cant connect to the database with my table, it works with root:password...
 
 $sql = "SELECT * FROM TABLE_VISIT";
 

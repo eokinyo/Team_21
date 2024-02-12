@@ -1,5 +1,5 @@
 <?php
-$servername = "localhost";
+$servername = "127.0.0.1";
 $username = "bbcap23_21";
 $password ="HAMhcY9i";
 $dbname ="wp_bbcap23_21";
