@@ -116,7 +116,7 @@ line-height: normal;
 }
 .col-md-12 .contact-back{
   width: auto;
-  height: 515px;
+  height: auto;
   flex-shrink: 0;
   background: #1A1A1A;
   display: flex;
@@ -127,7 +127,7 @@ line-height: normal;
 }
 .contact {
   width: 627px;
-  height: 481px;
+  height: auto;
   flex-shrink: 0;
   border-radius: 19px;
   border: 1px solid #FB4934;
@@ -242,7 +242,7 @@ color: #FBF1C7 !important;
 .message{
   font-family: 'Ligconsolata', monospace; 
   width: 593px;
-height: 140px;
+height: 120px;
 flex-shrink: 0;
 border-radius: 9px;
 border: 1px solid #FB4934;
@@ -258,6 +258,7 @@ color: #FBF1C7 !important;
   border-radius: 15px;
   cursor: pointer;
   transition: all 0.3s ease;
+  margin-bottom: 25px;
 }
 
 .btn-primary:hover {
