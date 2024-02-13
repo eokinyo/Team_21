@@ -35,7 +35,7 @@ include '<div class="">
                     <option value="Ongoing">Ongoing</option>
                     <option value="Completed">Completed</option>
                     <option value="Approved">Approved</option>
-                    <option value="Others">Others</option>
+                    <option value="Reject">Reject</option>
                 </select>
             </div>
         </div>
