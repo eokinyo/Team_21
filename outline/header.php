@@ -26,7 +26,7 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="index.php">Home</a>
+                                <a class="nav-link" aria-current="page" href="/Team_21/index.php">Home</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Works and Skills</a>
@@ -38,7 +38,10 @@
                                 <a class="nav-link" href="#">Contacts and References</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="ellySwork/signup.php">Sign Up</a>
+                                <a class="nav-link" href="/Team_21/ellySwork/signup.php">Sign Up</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/Team_21/dataBase/visitorLog.php">Logs</a>
                             </li>
                         </ul>
                     </div>
@@ -46,17 +49,3 @@
             </div>
         </nav>
 
-        <div class="container text-center">
-            <div class="row">
-                <div class="col-sm-12">
-                    <br>
-                    <br>
-                    <br>
-                    <h1 class="giant-header-font">Mr Professional</h1>
-                    <p class="orientation-base-font">
-                        <span class="orientation-red-font">Software Developer</span>
-                        <span class="orientation-base-font"> / </span>
-                        <span class="orientation-orange-font">Front End</span>
-                    </p>
-                </div>
-            </div>

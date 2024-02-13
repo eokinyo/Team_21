@@ -1,5 +1,6 @@
 <?php
-include 'db.php'; //it wont work yet since i cant connect to the database with my table, it works with root:password...
+include '../outline/header.php';
+include 'db.php'; //it wont work yet since i cant connect to the database with my table, it works with root:password... (first we need to move everything to shell and then change file paths)
 
 $sql = "SELECT * FROM TABLE_VISIT";
 
@@ -43,4 +44,7 @@ if ($conn->query($sql) === TRUE) {
 }
 
 $conn->close();
+
+include '../outline/footer.php';
 ?>
+
