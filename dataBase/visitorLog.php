@@ -29,16 +29,20 @@ $ip_address = getClientIP();
 
 
 if ($result->num_rows > 0) {
+    echo '<div class="container text-center">';
     while($row = $result->fetch_assoc()) {
         echo "Visit ID: " . $row["visit_id"] . " IP Address: " . $row["ip_address"] . " - Timestamp: " . $row["timestamp"] . "<br>";
     }
+    echo '</div>';
+    echo '<div class="container text-center">';
+    echo "IP Address logged successfully";
 } else {
     echo "0 results";
 }
 
 $sql = "INSERT INTO TABLE_VISIT (ip_address) VALUES ('$ip_address')";
 if ($conn->query($sql) === TRUE) {
-    echo "IP Address logged successfully";
+    echo "";
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
 }
@@ -46,5 +50,6 @@ if ($conn->query($sql) === TRUE) {
 $conn->close();
 
 include '../outline/footer.php';
+
 ?>
 
