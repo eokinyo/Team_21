@@ -79,5 +79,12 @@ include_once '../outline/header.php'; ?>
     function validateConsent(){
         const consent = document.getElementById("consent").value
     }
+
+//Event listeners for real time validation
+document.getElementById("fname").addEventListener("input", validateFname);
+document.getElementById("lname").addEventListener("input", validateLname);
+document.getElementById("email").addEventListener("input", validateFname);
+document.getElementById("occupation").addEventListener("input", validateEmail);
+document.getElementById("consent").addEventListener("input", validateConsent);
 </script>
 <?php include_once '../outline/footer.php'; ?>
