@@ -42,10 +42,19 @@ if (message.length < 10){
     return true
 }
 }
-//event listeners
-document.getElementById("first_name").addEventListener("input", validateFirstName)
-document.getElementById("last_name").addEventListener("input", validateLastName)
-document.getElementById("email").addEventListener("input", validateEmail)
-document.getElementById("message").addEventListener("input", validateMessage)
+function messageLength() {
+    const message = document.getElementById("message").value;
+    const messageLengthError = document.getElementById("messageLengthError");
+    const maxLength = 250
+    
+    messageLengthError.textContent = `${message.length}/${maxLength}`
+}
+
+// Event listeners
+document.getElementById("first_name").addEventListener("input", validateFirstName);
+document.getElementById("last_name").addEventListener("input", validateLastName);
+document.getElementById("email").addEventListener("input", validateEmail);
+document.getElementById("message").addEventListener("input", validateMessage);
+document.getElementById("message").addEventListener("input", messageLength);
 
         
