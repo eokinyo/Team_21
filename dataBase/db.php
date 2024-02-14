@@ -1,8 +1,8 @@
 <?php
-$servername = "127.0.0.1";
-$username = "bbcap23_21";
-$password ="HAMhcY9i";
-$dbname ="wp_bbcap23_21";
+$servername = "php24-db-1"; 
+$username = "root";   
+$password = "password";  
+$dbname = "studentsinfo";  
 //create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 //check connection

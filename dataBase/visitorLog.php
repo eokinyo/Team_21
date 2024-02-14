@@ -1,5 +1,6 @@
 <?php
-include 'db.php'; //it wont work yet since i cant connect to the database with my table, it works with root:password...
+include '../outline/header.php';
+include 'db.php'; //it wont work yet since i cant connect to the database with my table, it works with root:password... (first we need to move everything to shell and then change file paths)
 
 $sql = "SELECT * FROM TABLE_VISIT";
 
@@ -28,19 +29,27 @@ $ip_address = getClientIP();
 
 
 if ($result->num_rows > 0) {
+    echo '<div class="container text-center">';
     while($row = $result->fetch_assoc()) {
         echo "Visit ID: " . $row["visit_id"] . " IP Address: " . $row["ip_address"] . " - Timestamp: " . $row["timestamp"] . "<br>";
     }
+    echo '</div>';
+    echo '<div class="container text-center">';
+    echo "IP Address logged successfully";
 } else {
     echo "0 results";
 }
 
 $sql = "INSERT INTO TABLE_VISIT (ip_address) VALUES ('$ip_address')";
 if ($conn->query($sql) === TRUE) {
-    echo "IP Address logged successfully";
+    echo "";
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
 }
 
 $conn->close();
+
+include '../outline/footer.php';
+
 ?>
+

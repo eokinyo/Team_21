@@ -1,20 +1,35 @@
 <?php 
 $title = "Personal Portfolio";
 include 'outline/header.php'; ?>
-            <div class="row">
-                <div class="col-md-12">
-                    <img class="img-fluid rounded-image" src="https://fastly.picsum.photos/id/4/5000/3333.jpg?hmac=ghf06FdmgiD0-G4c9DdNM8RnBIN7BO0-ZGEw47khHP4" alt="Mr Professional">
-                    <br>
-                    <br>
-                    <br>
-                    <h2>About
-                        <span class="blue-header-font">Me</span> 
-                    </h2>
-                    <br>
-                    <br>
-                </div>
-            </div>
+
+
+<div class="container text-center">
+    <div class="row">
+        <div class="col-md-12">
+            <br>
+            <br>
+            <br>
+            <h1 class="giant-header-font">Mr Professional</h1>
+            <p class="orientation-base-font">
+                <span class="orientation-red-font">Software Developer</span>
+                <span class="orientation-base-font"> / </span>
+                <span class="orientation-orange-font">Front End</span>
+            </p>
+            <br>
+            <br>
+            <h2>About
+                <span class="blue-header-font">Me</span> 
+            </h2>
+            <br>
+            <br>
+            <br>
+            <img class="img-fluid rounded-image" src="https://fastly.picsum.photos/id/4/5000/3333.jpg?hmac=ghf06FdmgiD0-G4c9DdNM8RnBIN7BO0-ZGEw47khHP4" alt="Mr Professional">
         </div>
+    </div>
+</div>
+
+
+
 
         <div class="container text-center">
             <div class="row">
