@@ -1,10 +1,10 @@
 <?php 
 
 $title = "Feedback";
-include '../outline/header.php'; ?>
+include '../outline/header.php'; ?><br><br>
 
 
-<h2>"Project Review Feedback Form: Let Us Know Your Thoughts!"</h2><br><br>
+<h2>"Project Review Feedback Form: Let Us Know Your Thoughts!"</h2><br><br><br><br>
 
 <form name="form1" method="post" action="process.php">
     <div class="form-group">
@@ -81,7 +81,7 @@ document.getElementById("username").addEventListener("input",validateName);
     </div><br>
 
     <button type="submit" class="btn btn-primary" name="submit">Submit</button>
-</form>
+</form><br><br>
 
 
 <?php include '../outline/footer.php'; ?>
