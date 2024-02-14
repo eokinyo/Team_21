@@ -3,9 +3,9 @@
 // Localhost:81 
 
 $servername = "web-dev-env-main-db-1"; 
-$username = "Team_21";     
-$password = "team21";     
-$dbname = "Team_21";       
+$username = "Project_21";     
+$password = "Project21";     
+$dbname = "Project_21";       
 
 // Create database connection
 $conn = new mysqli($servername, $username, $password, $dbname);

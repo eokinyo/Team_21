@@ -25,10 +25,10 @@ CREATE TABLE TABLE_VISIT (
 
 ## Feedback Table - Created by Dammika
 
-CREATE TABLE `ProjectFeedback_Team21` (
-  `FeedbackID` int NOT NULL,
-  `ProjectID` int NOT NULL,
-  `UserName` varchar(50) NOT NULL,
-  `Status` varchar(20) NOT NULL,
-  `Comments` text NOT NULL
+CREATE TABLE `ProjectFeedback` (
+  `Feedback_ID` int NOT NULL,
+  `Project_ID` varchar(50) NOT NULL,
+  `User_Name` varchar(50) NOT NULL,
+  `progress` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
+  `Comments` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
