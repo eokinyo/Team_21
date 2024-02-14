@@ -1,6 +1,6 @@
 <?
 
-// what to do with the data
+// Created Table for the Project feedback << (what to do with the data)
 
 if (isset($_POST['submit'])) {
 
