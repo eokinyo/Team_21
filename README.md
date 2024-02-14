@@ -23,7 +23,7 @@ In this section, list and describe the features or functionality that you are wo
 
 ### Feature 1
 
-Conctact me form to get people reach out and send messages. (shell.hamk.fi) .
+Conctact me form to get people reach out and send messages. This form can be used to get in touch in people to aquire work or just to get people to interact with the portfolio owner.(shell.hamk.fi) .
 
 ### Feature 2
 
@@ -61,7 +61,7 @@ List the database tables that are part of your project.
 
 List and describe any forms that have been created as part of your project. Include details about the purpose of each form and any validation logic.
 
-- Form 1 (Nart): Contact form: Link to the related code file (github) | Link to the form (shell.hamk.fi). | Validations Applied
+- Form 1 (Nart): Contact form: Link to the related code file ([github](https://github.com/eokinyo/Team_21/blob/main/index.php)) | Link to the form (shell.hamk.fi). | Validations Applied
 - Form 2: (Elly): Signup form: Link to the related code file ([github](https://github.com/eokinyo/Team_21/blob/main/ellySwork/signup.php)) | Link to the form (shell.hamk.fi).  | Validations Applied
 
 ---
@@ -70,7 +70,7 @@ List and describe any forms that have been created as part of your project. Incl
 
 List any tables that you have created in the project work
 
-- Table 1 (Nart Kosova): Contact table | Link to the related code file (github) | Link to the table (shell.hamk.fi).
+- Table 1 (Nart Kosova): Contact table | Link to the related code file ([github](https://github.com/eokinyo/Team_21/blob/main/dataBase/submit_contactMe.php)) | Link to the table (shell.hamk.fi).
 - Table 2 (Elly): Signup table | Link to the related code file ([github](https://github.com/eokinyo/Team_21/blob/main/ellySwork/process.php)) | Link to the table (shell.hamk.fi).
 - Table 3 (Adam): Script table | Link to the related code file (github) | Link to the table (shell.hamk.fi).
 - Table 4 (Dammak): Rating table | Link to the related code file (github) | Link to the table (shell.hamk.fi).
