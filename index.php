@@ -98,7 +98,7 @@ include 'outline/header.php'; ?>
         <div class="row mt-3">
             <div class="col-md-6">
                 <div class="bg-dark p-3 rounded">
-                    <h2 class="green-header-font">Project 01</h2>
+                    <h2 class="green-header-font">Project 1</h2>
                     <div class="bg-dark rounded-circle p-3 mt-2"></div>
                     <div class="mt-3">
                         <p class="base-font">
@@ -114,10 +114,8 @@ include 'outline/header.php'; ?>
                     </div>
 
                     <div class="text-right mt-3">
-                        <a class="red-base-font" href="#">Feedback1</a><br>
-                        <li class="nav-item">
-                                <a class="nav-link" href="/Team_21/Dammika/dindex.php">Feedback</a><br>
-                            </li>
+                        <a class="red-base-font" href="/Team_21/Dammika/dindex.php">Feedback</a><br>
+                        
                         <body>
             
         <label for="rating">Rate us:</label> <div class="rating">
@@ -151,7 +149,7 @@ include 'outline/header.php'; ?>
                         <a class="blue-base-font" href="#">Check it<br/>out</a>
                     </div>
                     <div class="text-right mt-3">
-                        <a class="red-base-font" href="#">Feedback</a><br>
+                        <a class="red-base-font" href="/Team_21/Dammika/dindex.php">Feedback</a><br>
                         <body>
             
         <label for="rating">Rate us:</label> <div class="rating">
@@ -189,7 +187,7 @@ include 'outline/header.php'; ?>
                     </div>
 
                     <div class="text-right mt-3">
-                        <a class="red-base-font" href="#">Feedback</a><br>
+                        <a class="red-base-font" href="/Team_21/Dammika/dindex.php">Feedback</a><br>
                         <body>
             
         <label for="rating">Rate us:</label> <div class="rating">
@@ -223,7 +221,7 @@ include 'outline/header.php'; ?>
                         <a class="red-base-font" href="#">Check it<br/>out</a>
                     </div>
                     <div class="text-right mt-3">
-                        <a class="red-base-font" href="#">Feedback</a><br>
+                        <a class="red-base-font" href="/Team_21/Dammika/dindex.php">Feedback</a><br>
                         <body>
             
         <label for="rating">Rate us:</label> <div class="rating">
