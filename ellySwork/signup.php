@@ -32,7 +32,7 @@ include_once '../outline/header.php'; ?>
         <div class="row">
             <div class="col-md-6">
                 <label for="occupation">Occupation:</label>
-                <input type="text" class="form-control" id="occupation" placeholder="What is your occupation?" name="occupation" minlength="7">
+                <input type="text" class="form-control" id="occupation" placeholder="What is your occupation?" name="occupation" minlength="2">
                 <span id="occupationError"></span>
             </div>
             <div class="col-md-6">
@@ -55,7 +55,7 @@ include_once '../outline/header.php'; ?>
         const fnameError = document.getElementById("fnameError");
 
         if (fname.length < 3){
-            fnameError.innerHTML = "The name must have a minimum of three characters";
+            fnameError.innerHTML = "The first name must have a minimum of three characters";
             return false;
         }
         else{
@@ -66,14 +66,42 @@ include_once '../outline/header.php'; ?>
     //Function to validate last name
     function validateLname(){
         const lname = document.getElementById("lname").value;
+        const lnameError = document.getElementById("lnameError");
+
+        if (lname.length < 3){
+            lnameError.innerHTML = "The last name must have a minimum of three characters";
+            return false;
+        }
+        else{
+            lnameError.innerHTML = "";
+            return true;
+        }
     }
     //Function to validate email
     function validateEmail(){
         const email = document.getElementById("email").value;
+        const emailError = document.getElementById("emailError");
+        if (email === "" || !email.includes("@")){
+            emailError.innerHTML = "Please enter a valid email address";
+            return false;
+        }
+        else{
+            emailError.innerHTML = "";
+            return true;
+        }
     }
     //Function to validate occupation
     function validateOccupation(){
         const occupation = document.getElementById("occupation").value
+        const occupationError = document.getElementById("occupationError");
+        if (occupation.length < 2){
+            occupationError.innerHTML = "Please enter a valid occupation"
+            return false;
+        }
+        else{
+            occupationError.innerHTML = ""
+            return true;
+        }
     }
     //Function to validate consent
     function validateConsent(){
@@ -83,8 +111,8 @@ include_once '../outline/header.php'; ?>
 //Event listeners for real time validation
 document.getElementById("fname").addEventListener("input", validateFname);
 document.getElementById("lname").addEventListener("input", validateLname);
-document.getElementById("email").addEventListener("input", validateFname);
-document.getElementById("occupation").addEventListener("input", validateEmail);
+document.getElementById("email").addEventListener("input", validateEmail);
+document.getElementById("occupation").addEventListener("input", validateOccupation);
 document.getElementById("consent").addEventListener("input", validateConsent);
 </script>
 <?php include_once '../outline/footer.php'; ?>
