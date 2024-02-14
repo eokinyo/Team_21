@@ -1,6 +1,6 @@
 <?php 
 $title = "Sign-up form";
-include '../outline/header.php'; ?>
+include_once '../outline/header.php'; ?>
 <br>
 <br>
 <h2>Please provide the following information to sign up for my weekly content</h2>
@@ -42,4 +42,4 @@ include '../outline/header.php'; ?>
     </div>
     <button type="submit" class="btn btn-primary" name="submit">Submit</button>
 </form>
-<?php include '../outline/footer.php'; ?>
+<?php include_once '../outline/footer.php'; ?>
