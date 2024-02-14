@@ -1,5 +1,5 @@
 <?php
-
+include '../outline/header.php';
 if (isset($_POST['submit'])){
     $first_name = $_POST['first_name'];
     $last_name = $_POST['last_name'];
@@ -11,7 +11,8 @@ include 'db.php';
 $sql = "insert into contactMe(first_name, last_name, email, message)
         values ('$first_name', '$last_name', '$email', '$message')";
 if ($conn->query($sql)===TRUE){
-    echo "Your data was recorded";
+    echo "<div class='col-md-12 text-center'>Thank you for contacting me! <br>
+    <a href='/Team_21/index.php'>Go back</a>";
 }else {
     echo"Error: " .$sql . "<br>" . $conn->error;
 }
