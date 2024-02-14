@@ -1,8 +1,8 @@
 <?php 
 $title = "User input data";
-include_once '../outline/header.php';
+include 'ellydb.php';
+include '../outline/header.php';
 
-include_once 'ellydb.php';
 // SQL query to retrieve data from the 'signUpForm' table
 $sql = "SELECT * FROM signUpForm";
 
@@ -44,4 +44,4 @@ if ($result->num_rows > 0) {
 // close the connection when done
 $conn->close();
 
-include_once '../outline/footer.php'; ?>
+include '../outline/footer.php'; ?>
