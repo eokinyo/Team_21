@@ -271,7 +271,9 @@ include 'outline/header.php'; ?>
                             <div class="message-container">
                                 <label for="message">Message</label>
                                 <textarea class="form-control message" id="message" name="message" rows="3" placeholder="Enter your message" required></textarea>
+                                <p id="messageLengthError"></p>
                                 <p id="messageError"></p>
+                                
                             </div>
                         </div>
                         <button type="submit" class="btn btn-primary" name="submit">Submit</button>

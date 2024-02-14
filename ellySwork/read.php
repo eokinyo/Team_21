@@ -1,8 +1,8 @@
 <?php 
 $title = "User input data";
+include 'ellydb.php';
 include '../outline/header.php';
 
-include 'ellydb.php';
 // SQL query to retrieve data from the 'signUpForm' table
 $sql = "SELECT * FROM signUpForm";
 
