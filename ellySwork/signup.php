@@ -4,49 +4,54 @@ include_once '../outline/header.php'; ?>
 <br>
 <br>
 <h2>Please provide the following information to sign up for my weekly content</h2>
-<form name="signUpForm" method="post" action="process.php">
-    <div class="form-group row-container">
-        <div class="row">
-            <div class="col-md-6">
-                <label for="fname">First Name:</label>
-                <input type="text" class="form-control" id="fname" placeholder="Enter your first name" name="fname" required minlength="3">
-                <span id="fnameError"></span>
-            </div>
-            <div class="col-md-6">
-                <label for="lname">Last Name:</label>
-                <input type="text" class="form-control" id="lname" placeholder="Enter your last name" name="lname" required minlength="3">
-                <span id="lnameError"></span>
-            </div>
-        </div>
-    </div>
-    <div class="form-group row-container">
-        <div class="row">
-            <div class="col-md-12">
-                <label for="email">Email Address:</label>
-                <input type="text" class="form-control" id="email" placeholder="Enter your email address" name="email" required>
-                <span id="emailError"></span>
+<div class="col-md-12 text-center contact-back">
+    <form name="signUpForm" method="post" action="process.php">
+        <div class="form-group row-container">
+            <div class="row">
+                <div class="col-md-6">
+                    <label for="fname">First Name:</label>
+                    <input type="text" class="form-control" id="fname" placeholder="Enter your first name" name="fname" required minlength="3">
+                    <span id="fnameError"></span>
+                </div>
+                <div class="col-md-6">
+                    <label for="lname">Last Name:</label>
+                    <input type="text" class="form-control" id="lname" placeholder="Enter your last name" name="lname" required minlength="3">
+                    <span id="lnameError"></span>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="form-group row-container">
-        <div class="row">
-            <div class="col-md-6">
-                <label for="occupation">Occupation:</label>
-                <input type="text" class="form-control" id="occupation" placeholder="What is your occupation?" name="occupation" minlength="2">
-                <span id="occupationError"></span>
-            </div>
-            <div class="col-md-6">
-                <label for="consent">Consent:</label>
-                <select class="form-control" id="consent" name="consent" required>
-                    <option value="Yes">Yes</option>
-                    <option value="No">No</option>
-                    <span id="consentError"></span>
-                </select>
+        <div class="form-group row-container">
+            <div class="row">
+                <div class="col-md-6">
+                    <label for="email">Email Address:</label>
+                    <input type="text" class="form-control" id="email" placeholder="Enter your email address" name="email" required>
+                    <span id="emailError"></span>
+                </div>
+                <div class="col-md-6">
+                    <label for="occupation">Occupation:</label>
+                    <input type="text" class="form-control" id="occupation" placeholder="What is your occupation?" name="occupation" minlength="2">
+                    <span id="occupationError"></span>
+                </div>
             </div>
         </div>
-    </div>
-    <button type="submit" class="btn btn-primary" name="signUpSubmit">Submit</button>
-</form>
+        <div class="form-group row-container">
+            <div class="row">
+                <div class="col-md-6">
+                    <label for="consent">Consent:</label>
+                    <select class="form-control" id="consent" name="consent" required>
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
+                        <span id="consentError"></span>
+                    </select>
+                </div>
+                <div class="col-md-6">
+                    <button type="submit" class="btn btn-primary" name="signUpSubmit">Submit</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
 
 <script>
     //Function to validate first name
