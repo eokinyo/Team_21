@@ -1,6 +1,6 @@
 <?php 
 $title = "Your information";
-include_once '../outline/header.php'; ?>
+include '../outline/header.php'; ?>
 <?php
 // What to do with the data.
 if (isset($_POST['submit'])){
@@ -31,4 +31,4 @@ else {
 $conn->close();
 }
 ?>
-<?php include_once '../outline/footer.php'; ?>
+<?php include '../outline/footer.php'; ?>

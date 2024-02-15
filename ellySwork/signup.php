@@ -1,6 +1,6 @@
 <?php 
 $title = "Sign-up form";
-include_once '../outline/header.php'; ?>
+include '../outline/header.php'; ?>
 <br>
 <br>
 <h2>Please provide the following information to sign up for my weekly content</h2>
@@ -123,4 +123,4 @@ document.getElementById("email").addEventListener("input", validateEmail);
 document.getElementById("occupation").addEventListener("input", validateOccupation);
 document.getElementById("consent").addEventListener("input", validateConsent);
 </script>
-<?php include_once '../outline/footer.php'; ?>
+<?php include '../outline/footer.php'; ?>
