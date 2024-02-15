@@ -3,7 +3,7 @@ $title = "Your information";
 include '../outline/header.php'; ?>
 <?php
 // What to do with the data.
-if (isset($_POST['submit'])){
+if (isset($_POST['signUpSubmit'])){
     $fname = $_POST['fname'];
     $lname = $_POST['lname'];
     $email = $_POST['email'];
