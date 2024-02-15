@@ -3,6 +3,7 @@ $servername = "php24-db-1";
 $username = "root";   
 $password = "password";  
 $dbname = "studentsinfo";  
+
 //create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 //check connection

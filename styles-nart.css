@@ -265,3 +265,6 @@ color: #FBF1C7 !important;
   background-color: #FB4934;
   border-color: #FB4934;
 }
+.custom-table .readNart {
+  color: blue !important; 
+}
