@@ -90,7 +90,7 @@ List any tables that you have created in the project work
 
 - Table 1 (Nart Kosova): Contact table | Link to the related code file ([github](https://github.com/eokinyo/Team_21/blob/main/dataBase/submit_contactMe.php)) | Link to the table (shell.hamk.fi).
 - Table 2 (Elly): Signup table | Link to the related code file ([github](https://github.com/eokinyo/Team_21/blob/main/ellySwork/process.php)) | Link to the table (shell.hamk.fi).
-- Table 3 (Adam): Script table | Link to the related code file (github) | Link to the table (shell.hamk.fi).
+- Table 3 (Adam): Script table | Link to the related code file ([github](https://github.com/eokinyo/Team_21/blob/main/dataBase/visitorLog.php)) | Link to the table ([shell.hamk.fi](http://shell.hamk.fi/pma/index.php?route=/sql&pos=0&db=wp_bbcap23_21&table=TABLE_VISIT)).
 - Table 4 (Dammak): Project Feedback table | Link to the related code file [github](https://github.com/eokinyo/Team_21/blob/Dammika/process.php) | Link to the table (shell.hamk.fi).
 
 ---
