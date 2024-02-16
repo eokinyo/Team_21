@@ -26,6 +26,7 @@ if (isset($_POST['submit'])) {
     if ($conn->query($sql) === TRUE) {
         // If the query was successful, display a success message
         echo "Your data was recorded";
+        
     } else {
         // If there was an error in the query, display an error message
         echo "Error: " . $sql . "<br>" . $conn->error;
