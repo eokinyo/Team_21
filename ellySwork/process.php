@@ -22,6 +22,7 @@ $sql = "insert into signUpForm(fname, lname, email, occupation, consent)
 
 if ($conn->query($sql)===TRUE){
     echo "Thank you for signing up. I will get in touch with you with my latest piece of work. Cheers!";
+    echo "<br><a href='signup.php'>Return to Sign Up Page</a>";
 }
 else {
     echo "Error: " . $sql . "<br>" . $conn->error;
