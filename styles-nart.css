@@ -135,6 +135,19 @@ line-height: normal;
   margin:  auto;
 
 }
+
+.signUp {
+  width: 900px;
+  height: auto;
+  flex-shrink: 0;
+  border-radius: 19px;
+  border: 1px solid #FB4934;
+  background: #1D2021 !important;
+  margin:  auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
 .col-md-12 p{
   margin: 15px;
 flex-shrink: 0;
@@ -264,4 +277,7 @@ color: #FBF1C7 !important;
 .btn-primary:hover {
   background-color: #FB4934;
   border-color: #FB4934;
+}
+.custom-table .readNart {
+  color: blue !important; 
 }
