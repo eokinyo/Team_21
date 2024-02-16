@@ -29,6 +29,7 @@ CREATE TABLE `ProjectFeedback` (
   `Feedback_ID` int NOT NULL,
   `Project_ID` varchar(50) NOT NULL,
   `User_Name` varchar(50) NOT NULL,
+  `User_Email` varchar(50) NOT NULL,
   `progress` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
   `Comments` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;

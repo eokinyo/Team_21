@@ -120,6 +120,8 @@ document.getElementById("User_Email").addEventListener("input",validateEmail);
     </div><br>
 
     <button type="submit" class="btn btn-primary" name="submit">Submit</button>
+                      
+    
 </form><br><br>
 
 
