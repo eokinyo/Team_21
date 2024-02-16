@@ -8,6 +8,7 @@ if (isset($_POST['submit'])) {
     
     $projectid = $_POST['projectid'];     // Project ID
     $name = $_POST['name'];     // User Name 
+    $email = $_POST['email'];     // User E-mail 
     $progress = $_POST['progress'];       // Progress
     $comments = $_POST['comments']; // Comments
 
@@ -17,8 +18,8 @@ if (isset($_POST['submit'])) {
 
     // write SQL statement to insert data into the 'studentsinfo' table
     
-    $sql = "INSERT INTO ProjectFeedback (Project_ID, User_Name, progress, comments)
-            VALUES ('$projectid', '$name', '$progress', '$comments')";
+    $sql = "INSERT INTO ProjectFeedback (Project_ID, User_Name, User_Email, progress, comments)
+            VALUES ('$projectid', '$name', '$email', '$progress', '$comments')";
 
     // Execute the SQL query using the database connection
 

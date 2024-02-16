@@ -56,6 +56,45 @@ document.getElementById("username").addEventListener("input",validateName);
 </script>
             </div><br>
 
+
+            <div class="col">
+                <label for="name">User E-mail:</label>
+                <input type="text" name="email" required minlength="5" maxlength="30" id="email"><br>
+<span id="emailError"></span>
+
+
+                <script>
+    // function to validate E-mail
+    function validateEmail()
+{
+    const email=document.getElementById("email").value;
+    const emailError=document.getElementById("emailError");
+
+    if(email===" " || !email.includes("@"))
+    {
+        emailErrorError.innerHTML="Please enter valied E-mail";
+        return false;
+
+    }
+    else{
+
+        emailError.innerHTML="";
+        return true;
+    }
+
+}
+
+
+// event listeners for real time validation'
+document.getElementById("User_Email").addEventListener("input",validateEmail);
+
+</script>
+            </div><br>
+
+
+
+
+
         </div>
     </div>
     <div class="form-group">
