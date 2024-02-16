@@ -1,6 +1,6 @@
 <?php 
 
-$title = "Feedback";
+$title = "Feed back";
 include '../outline/header.php'; ?><br><br>
 
 
