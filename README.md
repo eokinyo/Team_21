@@ -53,6 +53,7 @@ Collecting project review and Feedback information
 - It allows stakeholders to evaluate the progress, performance, and outcomes of the project against predefined objectives and goals. Feedback provides a mechanism for holding team members and project stakeholders accountable for their roles and responsibilities.
 - There are pre-defined options to select for Project ID # and Progress. Username will refer to the Feedback provider and he/she can enter thier feedback in the comments coloumn.
 - The username is validated by java script "between 5 & 20 characters".
+- The User E-mail is validated by java script "between 5 & 30 characters" with email.includes("@").
 - Feedback can be given to improve the progress of the project and correct the errors and deficiencies.
 - All feedback data is stored in a separate database according to a feedback ID, which can be filtered based on the project ID.
 
