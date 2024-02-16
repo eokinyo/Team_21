@@ -65,10 +65,10 @@ http://shell.hamk.fi/~bbcap23_21/Team_21/Dammika/dindex.php
 
 List the database tables that are part of your project. 
 
-- Table 1 (Nart): Contact me database table.: Link to collected data ([github](https://github.com/eokinyo/Team_21/blob/main/dataBase/read_contactMe.php)) | (shell.hamk.fi)
+- Table 1 (Nart): Contact me database table.: Link to collected data ([github](https://github.com/eokinyo/Team_21/blob/main/dataBase/read_contactMe.php)) | ([shell.hamk.fi](http://shell.hamk.fi/~bbcap23_21/Team_21/dataBase/read_contactMe.php))
 - Table 2 (Elly): Signup table.: Link to collected data ([github](https://github.com/eokinyo/Team_21/blob/main/ellySwork/read.php)) | (shell.hamk.fi)
-- Table 3 (Adam):  Storing visitor information.: Link to collected data (github) | (shell.hamk.fi)
-- Table 4 (Dammak): Storing project Feedback data.: Link to collected data (github) | (shell.hamk.fi)
+- Table 3 (Adam):  Storing visitor information.: Link to collected data ([github](https://github.com/eokinyo/Team_21/blob/main/dataBase/visitorLog.php)) | ([shell.hamk.fi](http://shell.hamk.fi/~bbcap23_21/Team_21/dataBase/visitorLog.php))
+- Table 4 (Dammak): Storing project Feedback data.: Link to collected data ([github](https://github.com/eokinyo/Team_21/blob/main/Dammika/Dread.php)) | ([shell.hamk.fi](http://shell.hamk.fi/~bbcap23_21/Team_21/Dammika/Dread.php))
 
 > Include the ER Diagram of the database. 
 
@@ -79,7 +79,7 @@ List the database tables that are part of your project.
 List and describe any forms that have been created as part of your project. Include details about the purpose of each form and any validation logic.
 
 - Form 1 (Nart): Contact form: Link to the related code file ([github](https://github.com/eokinyo/Team_21/blob/main/index.php)) | Link to the form (shell.hamk.fi). | Validations Applied
-- Form 2: (Elly): Signup form: Link to the related code file ([github](https://github.com/eokinyo/Team_21/blob/main/ellySwork/signup.php)) | Link to the form (shell.hamk.fi).  | Validations Applied
+- Form 2: (Elly): Signup form: Link to the related code file ([github](https://github.com/eokinyo/Team_21/blob/main/ellySwork/signup.php)) | Link to the form ([shell.hamk.fi](http://shell.hamk.fi/~bbcap23_21/Team_21/ellySwork/signup.php)).  | Validations Applied
 
 - Form 4: (Dammika) Project Review Feedback Form: Link to the related code file ([github](https://github.com/eokinyo/Team_21/blob/Dammika/dindex.php)) | Link to the form (shell.hamk.fi). | Validations Applied
 
@@ -89,9 +89,9 @@ List and describe any forms that have been created as part of your project. Incl
 
 List any tables that you have created in the project work
 
-- Table 1 (Nart Kosova): Contact table | Link to the related code file ([github](https://github.com/eokinyo/Team_21/blob/main/dataBase/submit_contactMe.php)) | Link to the table (shell.hamk.fi).
-- Table 2 (Elly): Signup table | Link to the related code file ([github](https://github.com/eokinyo/Team_21/blob/main/ellySwork/process.php)) | Link to the table (shell.hamk.fi).
+- Table 1 (Nart Kosova): Contact table | Link to the related code file ([github](https://github.com/eokinyo/Team_21/blob/main/dataBase/submit_contactMe.php)) | Link to the table ([shell.hamk.fi](http://shell.hamk.fi/pma/index.php?route=/sql&pos=0&db=wp_bbcap23_21&table=contactMe)).
+- Table 2 (Elly): Signup table | Link to the related code file ([github](https://github.com/eokinyo/Team_21/blob/main/ellySwork/process.php)) | Link to the table ([shell.hamk.fi](http://shell.hamk.fi/pma/index.php?route=/sql&pos=0&db=wp_bbcap23_21&table=signUpForm)).
 - Table 3 (Adam): Script table | Link to the related code file ([github](https://github.com/eokinyo/Team_21/blob/main/dataBase/visitorLog.php)) | Link to the table ([shell.hamk.fi](http://shell.hamk.fi/pma/index.php?route=/sql&pos=0&db=wp_bbcap23_21&table=TABLE_VISIT)).
-- Table 4 (Dammak): Project Feedback table | Link to the related code file [github](https://github.com/eokinyo/Team_21/blob/Dammika/process.php) | Link to the table (shell.hamk.fi).
+- Table 4 (Dammak): Project Feedback table | Link to the related code file [github](https://github.com/eokinyo/Team_21/blob/Dammika/process.php) | Link to the table ([shell.hamk.fi](http://shell.hamk.fi/pma/index.php?route=/sql&pos=0&db=wp_bbcap23_21&table=ProjectFeedback)).
 
 ---
