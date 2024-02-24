@@ -68,7 +68,7 @@ List the database tables that are part of your project.
 - Table 1 (Nart): Contact me database table.: Link to collected data ([github](https://github.com/eokinyo/Team_21/blob/main/dataBase/read_contactMe.php)) | ([shell.hamk.fi](http://shell.hamk.fi/~bbcap23_21/Team_21/dataBase/read_contactMe.php))
 - Table 2 (Elly): Signup table.: Link to collected data ([github](https://github.com/eokinyo/Team_21/blob/main/ellySwork/read.php)) | (shell.hamk.fi)
 - Table 3 (Adam):  Storing visitor information.: Link to collected data (github) | (shell.hamk.fi)
-- Table 4 (Dammak): Storing project Feedback data.: Link to collected data (github) | (http://shell.hamk.fi/~bbcap23_21/Team_21/Dammika/Dread.php)
+- Table 4 (Dammak): Storing project Feedback data.: Link to collected data ([github](https://github.com/eokinyo/Team_21/blob/main/Dammika/Dread.php)) | (http://shell.hamk.fi/~bbcap23_21/Team_21/Dammika/Dread.php)
 
 > Include the ER Diagram of the database. 
 
