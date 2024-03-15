@@ -25,7 +25,7 @@ include '../outline/header.php'; ?><br><br>
 
             <div class="col">
                 <label for="name">User Name:</label>
-                <input type="text" name="name" required minlength="5" maxlength="20" id="name"><br>
+                <input type="text" name="name" required minlength="4" maxlength="20" id="name"><br>
 <span id="nameError"></span>
 
                 <script>
@@ -35,9 +35,9 @@ include '../outline/header.php'; ?><br><br>
     const name=document.getElementById("name").value;
     const nameError=document.getElementById("nameError");
 
-    if(name.length <3 || name.length>20)
+    if(name.length <4 || name.length>20)
     {
-        nameError.innerHTML="Name must be between 5 & 20 characters";
+        nameError.innerHTML="Name must be between 4 & 20 characters";
         return false;
 
     }
@@ -51,34 +51,34 @@ include '../outline/header.php'; ?><br><br>
 
 
 // event listeners for real time validation'
-document.getElementById("username").addEventListener("input",validateName);
+document.getElementById("name").addEventListener("input", validateName);
 
 </script>
             </div><br>
 
 
             <div class="col">
-                <label for="name">User E-mail:</label>
+                <label for="email">User E-mail:</label>
                 <input type="text" name="email" required minlength="5" maxlength="30" id="email"><br>
 <span id="emailError"></span>
 
 
                 <script>
     // function to validate E-mail
-    function validateEmail()
+        function validateEmail()
 {
-    const email=document.getElementById("email").value;
-    const emailError=document.getElementById("emailError");
+    const email= document.getElementById("email").value;
+    const emailError= document.getElementById("emailError");
 
-    if(email===" " || !email.includes("@"))
+    if(email === "" || !email.includes("@"))
     {
-        emailErrorError.innerHTML="Please enter valied E-mail";
+        emailErrorError.innerHTML = "Please enter valied E-mail";
         return false;
 
     }
     else{
 
-        emailError.innerHTML="";
+        emailError.innerHTML = "";
         return true;
     }
 
@@ -86,7 +86,7 @@ document.getElementById("username").addEventListener("input",validateName);
 
 
 // event listeners for real time validation'
-document.getElementById("User_Email").addEventListener("input",validateEmail);
+document.getElementById("email").addEventListener("input", validateEmail);
 
 </script>
             </div><br>
